@@ -18,16 +18,15 @@
       color: white;
     }
 
-    @media (min-width: 992px) {
-      /* #top2{
-        float: right !important;
-      } */
+    #footer{
+      bottom: 3%;
     }
   </style>
 </head>
 
 <body>
-  <!-- col小版面、sm -->
+  <!-- col小版面、lg大版面 -->
+  <!-- top -->
   <div class="container">
     <div class="row justify-content-lg-between align-items-center">
       <div class="col-lg-2 col-12 text-center">
@@ -41,6 +40,21 @@
       </div>
     </div>
   </div>
+
+  <!-- middle -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12 text-center"><img class="rounded-circle shadow" src="https://picsum.photos/200/200/?random=1"></div>
+      <div class="col-12 text-center mt-2">
+        <p class="display-4">Bootstrap Layout</p>
+        <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam tempore nulla harum, autem, earum voluptate officiis at eaque nobis ipsum numquam reprehenderit adipisci. Ipsum numquam mollitia voluptatem veritatis eligendi. Enim.</p>
+        <button type="button" class="btn btn-light">Learn More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <p id="footer" class="position-absolute text-center w-100">Design by Alfred Dai</p>
 
 
 
